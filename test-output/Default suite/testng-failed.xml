@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="ConfigureAppium"/>
           <include name="verifyLoginFunctinality"/>
+          <include name="verifyPurchaseFunctionality"/>
         </methods>
       </class> <!-- org.kizora.PurchaseShoes_TC_01 -->
     </classes>

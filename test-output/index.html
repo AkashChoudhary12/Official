@@ -149,18 +149,18 @@
                   <span class="method-name">verifyLoginFunctinality</span>
                   <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.androidsample.generalstore:id/toolbar_title&apos; does not exist in DOM anymore
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+Build info: version: &apos;4.7.0&apos;, revision: &apos;0a5b49d16f&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [dfcf653c-dc53-4912-bafa-d8881f11983e, getElementText {id=00000000-0000-019f-ffff-ffff00000013}]
-Capabilities {appium:app: C:\Users\AkashChoudhary\ecl..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Chrome_driver\chromedriv..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\AkashChoudhary\ecl..., automationName: UIAutomator2, chromedriverExecutable: C:\Chrome_driver\chromedriv..., platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2220, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 13, appium:statBarHeight: 66, appium:takesScreenshot: true, appium:viewportRect: {height: 2088, left: 0, top: 66, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Element: [[AndroidDriver:  on ANDROID (dfcf653c-dc53-4912-bafa-d8881f11983e)] -&gt; id: com.androidsample.generalstore:id/toolbar_title]
-Session ID: dfcf653c-dc53-4912-bafa-d8881f11983e
+Command: [fb9c2ceb-af94-40c0-8c09-c29590bfacac, getElementText {id=00000000-0000-007e-ffff-ffff00000014}]
+Capabilities {appium:app: C:\Users\AkashChoudhary\ecl..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Chrome_driver\chromedriv..., appium:databaseEnabled: false, appium:desired: {app: C:\Users\AkashChoudhary\ecl..., automationName: UIAutomator2, chromedriverExecutable: C:\Chrome_driver\chromedriv..., platformName: android}, appium:deviceApiLevel: 30, appium:deviceManufacturer: unknown, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2560, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 11, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (fb9c2ceb-af94-40c0-8c09-c29590bfacac)] -&gt; id: com.androidsample.generalstore:id/toolbar_title]
+Session ID: fb9c2ceb-af94-40c0-8c09-c29590bfacac
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
 	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
@@ -168,7 +168,7 @@ Session ID: dfcf653c-dc53-4912-bafa-d8881f11983e
 	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
 	at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.getText(&lt;generated&gt;)
 	at org.kizora.pageObjects.android.FormPage.getTitleProduct(FormPage.java:87)
-	at org.kizora.PurchaseShoes_TC_01.verifyLoginFunctinality(PurchaseShoes_TC_01.java:30)
+	at org.kizora.PurchaseShoes_TC_01.verifyLoginFunctinality(PurchaseShoes_TC_01.java:31)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -266,15 +266,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyPurchaseFunctionality')
 data.setCell(0, 2, 'org.kizora.PurchaseShoes_TC_01')
-data.setCell(0, 3, 25518);
+data.setCell(0, 3, 26568);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPurchaseFunctionality')
+data.setCell(1, 1, 'verifyLoginFunctinality')
 data.setCell(1, 2, 'org.kizora.PurchaseShoes_TC_01')
-data.setCell(1, 3, 19563);
+data.setCell(1, 3, 19307);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLoginFunctinality')
+data.setCell(2, 1, 'verifyPurchaseFunctionality')
 data.setCell(2, 2, 'org.kizora.PurchaseShoes_TC_01')
-data.setCell(2, 3, 18078);
+data.setCell(2, 3, 19151);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -312,37 +312,37 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPurchaseFunctionality({name=disha choudhary, country=Argentina, gender=Female})</span>
-                <span class="method-start">12748 ms</span>
+                <span class="method-start">5606 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32315 ms</span>
+                <span class="method-start">24760 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">ConfigureAppium</span>
-                <span class="method-start">32607 ms</span>
+                <span class="method-start">25003 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPurchaseFunctionality({name=sagar choudhary, country=Canada, gender=male})</span>
-                <span class="method-start">43244 ms</span>
+                <span class="method-start">29659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68763 ms</span>
+                <span class="method-start">56227 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">ConfigureAppium</span>
-                <span class="method-start">69100 ms</span>
+                <span class="method-start">56519 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLoginFunctinality</span>
-                <span class="method-start">80917 ms</span>
+                <span class="method-start">62971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">99327 ms</span>
+                <span class="method-start">82735 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

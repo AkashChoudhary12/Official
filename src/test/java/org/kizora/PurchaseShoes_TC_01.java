@@ -10,6 +10,7 @@ import org.kizora.pageObjects.android.CartPage;
 import org.kizora.pageObjects.android.ProductCatalogue;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -61,12 +62,12 @@ public class PurchaseShoes_TC_01 extends AndroidBaseTest {
 
 	}
 
-	// @BeforeMethod(alwaysRun=true)
-	public void preSetup() {
-
-		formPage.setActivity();
-
-	}
+////	 @BeforeMethod(alwaysRun=true)
+//	public void preSetup() {
+//
+//		formPage.setActivity();
+//
+//	}
 
 	@DataProvider
 	public Object[][] getData() throws IOException {

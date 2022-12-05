@@ -1,8 +1,5 @@
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/utils/AndroidActions.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/utils/AppiumUtils.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/pageObjects/ios/HomePage.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/pageObjects/android/CartPage.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/utils/IOSActions.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/pageObjects/ios/AlertViews.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/pageObjects/android/ProductCatalogue.java
-/Users/rahulshetty/workingcode/AppiumFrameworkDesign/src/main/java/org/rahulshettyacademy/pageObjects/android/FormPage.java
+C:\Users\AkashChoudhary\eclipse-workspace\AppiumFramework\src\main\java\org\kizora\utils\AppiumUtils.java
+C:\Users\AkashChoudhary\eclipse-workspace\AppiumFramework\src\main\java\org\kizora\pageObjects\android\FormPage.java
+C:\Users\AkashChoudhary\eclipse-workspace\AppiumFramework\src\main\java\org\kizora\pageObjects\android\ProductCatalogue.java
+C:\Users\AkashChoudhary\eclipse-workspace\AppiumFramework\src\main\java\org\kizora\utils\AndroidActions.java
+C:\Users\AkashChoudhary\eclipse-workspace\AppiumFramework\src\main\java\org\kizora\pageObjects\android\CartPage.java

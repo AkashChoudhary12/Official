@@ -9,14 +9,14 @@ public class ExtentReporterNG {
 	public static ExtentReports getReporterObject()
 	{
 		
-	//	ExtentReports , ExtentSparkReporter
+	//	ExtentReports , ExtentSparkReporter this are the classes which are very imp
 		String path =System.getProperty("user.dir")+"//reports//index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Android Automation Results");
-		reporter.config().setDocumentTitle("Test Results");
+		reporter.config().setDocumentTitle("Test Results");              // tile of webpage of report
 		
-		extent =new ExtentReports();
-		extent.attachReporter(reporter);
+		extent =new ExtentReports();      // main to drive our reporting execution
+		extent.attachReporter(reporter);   // reporter object need to pass here 
 		extent.setSystemInfo("Tester", "Akash Choudhary");
 		return extent;
 		

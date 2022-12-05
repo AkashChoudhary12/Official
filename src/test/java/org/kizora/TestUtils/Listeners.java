@@ -15,14 +15,14 @@ import io.appium.java_client.AppiumDriver;
 
 public class Listeners extends AppiumUtils implements ITestListener{
 	ExtentTest test;
-	ExtentReports extent = ExtentReporterNG.getReporterObject();
+	ExtentReports extent = ExtentReporterNG.getReporterObject(); // here getReporterObject is method which we created with static keyword hence here we don't need to create object for this 
 	AppiumDriver driver;
 	
 	
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
-		 test= extent.createTest(result.getMethod().getMethodName());
+		 test= extent.createTest(result.getMethod().getMethodName());  // make entry on extent report for test case 
 	}
 
 	@Override
